@@ -88,8 +88,8 @@ function toReactAttributes($el, $) {
         return false;
     }
 
-    $el.children().each((index, el) => {
-        const $child = $(el);
-        toReactAttributes($child, $);
-    });
+    // $el.children().each((index, el) => {
+    //     const $child = $(el);
+    //     toReactAttributes($child, $);
+    // });
 }
